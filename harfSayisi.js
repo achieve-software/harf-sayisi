@@ -12,7 +12,7 @@ alert("harf sayısı: " + sonuc);
 function harfBul(harf) {
   let toplam = 0;
   for (let i = 0; i < metin.length; i++) {
-    if (metin.charAt(i) === harf) {
+    if (metin.charAt(i).toLowerCase() === harf) {
       toplam += 1;
     }
   }
